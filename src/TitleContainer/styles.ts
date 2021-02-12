@@ -4,7 +4,7 @@ export const TitleContainer = styled.div`
     //Page title container
     
     text-align: center;
-    margin-top: 60px;
+    margin-top: 0px;
     /* background-color: blue; */
     height: 120px;
     
