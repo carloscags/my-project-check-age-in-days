@@ -3,6 +3,7 @@ import React from 'react';
 import { 
   Container,
   IconAge,
+  ContainerButton,
   ItemButton0,
   ItemButton1,
   ItemButton2, 
@@ -14,9 +15,12 @@ const Header: React.FC = () => {
     <Container>
       <h1>Navegation bar test</h1>
       <IconAge />
-      <ItemButton0 />
-      <ItemButton1 />
-      <ItemButton2 />
+      <ContainerButton>
+        <ItemButton0 />
+        <ItemButton1 />
+        <ItemButton2 />
+      </ContainerButton>
+      
     </Container>
   );
 };
